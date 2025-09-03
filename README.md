@@ -61,11 +61,6 @@ This project can also be run with `uv`.
 -  Not all payloads will work against each implementation and parameter set of the bicubic and bilinear downscaling algorithms as a result of varying robustness of anti-aliasing across implementations, different default parameters in scaling libraries, and implementation-specific optimizations that affect interpolation behavior.
 -  This also holds true of production AI systems more broadly as system scaling behavior is subject to change.
 
-
-## Maintainers
-- [Kikimora Morozova](https://github.com/kiki-morozova)
-- [Suha Sabi Hussain](https://github.com/suhacker1)
-
 ## References
 - [**Weaponizing image scaling against production AI systems**](https://blog.trailofbits.com/2025/08/21/weaponizing-image-scaling-against-production-ai-systems/)
 - [**Adversarial Preprocessing: Understanding and Preventing Image-Scaling Attacks in Machine Learning**](https://www.usenix.org/conference/usenixsecurity20/presentation/quiring)
